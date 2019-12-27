@@ -1,0 +1,433 @@
+.scroll-img {
+  width: 100%;
+  position: relative;
+  top: 110px; }
+  .scroll-img .swiper-container {
+    width: 100%;
+    height: 610px; }
+    .scroll-img .swiper-container img {
+      width: 100%;
+      height: 610px; }
+    .scroll-img .swiper-container .swiper-pagination-bullet {
+      width: 13px;
+      height: 13px;
+      background-image: url("../img/icon.png");
+      background-position: -210px -132px; }
+    .scroll-img .swiper-container .swiper-pagination-bullet-active {
+      background-image: url("../img/icon.png");
+      background-position: -215px -55px; }
+
+.w {
+  width: 1000px;
+  margin: 0 auto; }
+
+.main {
+  width: 100%;
+  font-family: 'PingFangSC-Thin', 'Microsoft YaHei'; }
+  .main .card-section {
+    width: 100%;
+    margin-top: 170px; }
+    .main .card-section .mian-yrj .f {
+      float: left; }
+    .main .card-section .mian-yrj .fade-in-card-1 {
+      width: 297px;
+      height: 235px;
+      padding: 40px;
+      color: #222;
+      background-color: #FFF3EA; }
+      .main .card-section .mian-yrj .fade-in-card-1 .baskerville {
+        border-top: 1px solid #999;
+        display: inline-block;
+        font-size: 36px;
+        line-height: 56px;
+        font-weight: 100;
+        font-family: Baskerville;
+        letter-spacing: -0.41px; }
+      .main .card-section .mian-yrj .fade-in-card-1 .sub-title {
+        margin-top: 5px;
+        font-size: 24px;
+        letter-spacing: -0.34px;
+        font-family: 'PingFangSC-Light', 'Microsoft YaHei'; }
+      .main .card-section .mian-yrj .fade-in-card-1 .gap {
+        margin-top: 15px; }
+      .main .card-section .mian-yrj .fade-in-card-1 .content {
+        font-size: 16px;
+        color: #444;
+        line-height: 24px; }
+      .main .card-section .mian-yrj .fade-in-card-1 .btn-black {
+        width: 60px;
+        height: 36px;
+        padding: 0 30px;
+        display: inline-block;
+        background-color: #222;
+        position: relative;
+        font-size: 12px;
+        color: #fff;
+        line-height: 36px;
+        margin-top: 40px;
+        overflow: hidden; }
+        .main .card-section .mian-yrj .fade-in-card-1 .btn-black span {
+          position: relative;
+          z-index: 10; }
+        .main .card-section .mian-yrj .fade-in-card-1 .btn-black .angla {
+          width: 120px;
+          height: 36px;
+          background-color: #FCD2C0;
+          position: absolute;
+          top: 0;
+          left: -120px;
+          z-index: 9; }
+    .main .card-section .mian-yrj .fade-in-card-2 {
+      width: 613px;
+      height: 315px;
+      margin-left: 10px; }
+      .main .card-section .mian-yrj .fade-in-card-2 img {
+        width: 613px; }
+    .main .card-section .mian-yrj .fade-in-card-3 {
+      width: 327px;
+      height: 160px;
+      position: relative;
+      overflow: hidden;
+      margin-top: 10px;
+      background-size: 100%;
+      background: #E4F7F3;
+      box-sizing: border-box; }
+      .main .card-section .mian-yrj .fade-in-card-3 a img {
+        width: 327px;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .main .card-section .mian-yrj .fade-in-card-3 a img:hover {
+        transition: all 0.5s ease-out 0s;
+        transform: scale(1.2); }
+      .main .card-section .mian-yrj .fade-in-card-3 .content-in {
+        position: absolute;
+        left: 20px;
+        top: 58px;
+        line-height: 22px;
+        text-align: center;
+        width: 144px; }
+        .main .card-section .mian-yrj .fade-in-card-3 .content-in a {
+          color: #666; }
+    .main .card-section .mian-yrj .mar-r {
+      margin-right: 9.5px; }
+  .main .service-section {
+    width: 100%;
+    padding-top: 70px;
+    overflow: hidden; }
+    .main .service-section .container-good {
+      height: 444px;
+      position: relative; }
+      .main .service-section .container-good .text-r {
+        text-align: right;
+        float: right; }
+        .main .service-section .container-good .text-r .baskerville {
+          display: inline-block;
+          border-top: 1px solid #999;
+          font-size: 36px;
+          line-height: 56px;
+          font-weight: 100; }
+        .main .service-section .container-good .text-r .sub-title {
+          font-size: 24px;
+          color: #222; }
+        .main .service-section .container-good .text-r .content {
+          margin-top: 12px;
+          font-size: 16px;
+          color: #444;
+          line-height: 24px; }
+      .main .service-section .container-good .pic-list {
+        width: 548px;
+        height: 340px;
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        overflow: hidden; }
+        .main .service-section .container-good .pic-list img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          transition: all 1s ease-out 0s;
+          opacity: 0; }
+        .main .service-section .container-good .pic-list .opacity {
+          opacity: 1; }
+      .main .service-section .container-good .bottom-text {
+        width: 300%;
+        padding: 26px 40px;
+        background-color: #FFF3EA;
+        position: absolute;
+        bottom: 0;
+        left: 548px;
+        text-align: left;
+        color: #222;
+        overflow: hidden; }
+        .main .service-section .container-good .bottom-text .wapper {
+          position: relative;
+          max-width: 408px;
+          height: 88px;
+          overflow: hidden; }
+          .main .service-section .container-good .bottom-text .wapper .wapper-ab {
+            top: 0px;
+            position: absolute;
+            transition: all 0.7s linear 0s; }
+            .main .service-section .container-good .bottom-text .wapper .wapper-ab div .wab-title {
+              font-size: 20px; }
+            .main .service-section .container-good .bottom-text .wapper .wapper-ab div .wab-content {
+              color: #444;
+              font-size: 16px;
+              margin-top: 12px;
+              line-height: 24px; }
+    .main .service-section .pic-nav {
+      margin-top: 30px;
+      position: relative;
+      clear: both; }
+      .main .service-section .pic-nav .line {
+        width: 802px;
+        height: 1px;
+        background-color: #e5e5e5;
+        margin: 0 auto; }
+      .main .service-section .pic-nav .line-nav .active .text {
+        font-size: 16px;
+        color: #222; }
+      .main .service-section .pic-nav .line-nav .active .line-nav-ico {
+        width: 9px;
+        height: 9px;
+        display: inline-block;
+        position: relative;
+        top: -13px;
+        background-image: url(../img/icon.png);
+        background-position: -215px -96px; }
+      .main .service-section .pic-nav .line-nav li {
+        width: 20%;
+        text-align: center;
+        float: left;
+        cursor: pointer; }
+        .main .service-section .pic-nav .line-nav li .line-nav-ico {
+          width: 5px;
+          height: 5px;
+          display: inline-block;
+          position: relative;
+          top: -13px;
+          background-image: url(../img/icon.png);
+          background-position: -215px -136px; }
+        .main .service-section .pic-nav .line-nav li .text {
+          font-size: 14px;
+          color: #666;
+          min-height: 44px;
+          transition: all 0.3s ease-in-out 0s; }
+  .main .accompany-section {
+    width: 100%;
+    margin-top: 60px;
+    position: relative; }
+    .main .accompany-section .container-cause {
+      height: 563px;
+      position: relative; }
+      .main .accompany-section .container-cause .text-m-cause .baskerville {
+        border-top: 1px solid #999;
+        color: #222;
+        font-size: 36px;
+        line-height: 56px;
+        display: inline-block;
+        font-weight: 100; }
+      .main .accompany-section .container-cause .text-m-cause .sub-title {
+        font-size: 24px;
+        color: #222; }
+      .main .accompany-section .container-cause .text-m-cause .content {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #444;
+        line-height: 24px; }
+      .main .accompany-section .container-cause .text-m-cause .more-business {
+        text-align: center;
+        margin-top: 40px;
+        color: #666;
+        position: relative;
+        display: inline-block;
+        padding: 0 30px;
+        height: 36px;
+        line-height: 36px;
+        background-color: #222;
+        z-index: 8;
+        overflow: hidden; }
+        .main .accompany-section .container-cause .text-m-cause .more-business span {
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+          font-size: 12px;
+          color: #fff;
+          position: relative;
+          top: 0;
+          left: 0;
+          z-index: 10; }
+        .main .accompany-section .container-cause .text-m-cause .more-business .angla-h {
+          width: 132px;
+          height: 36px;
+          background-color: #FCD2C0;
+          position: absolute;
+          left: -132px;
+          top: 0;
+          z-index: 0; }
+      .main .accompany-section .container-cause .bottom-text {
+        width: 300%;
+        position: absolute;
+        bottom: 40px;
+        height: 140px;
+        text-align: left;
+        right: 0; }
+        .main .accompany-section .container-cause .bottom-text .wapper-text {
+          width: 100%;
+          height: 88px;
+          position: absolute;
+          margin-top: 25px;
+          overflow: hidden;
+          z-index: 11; }
+          .main .accompany-section .container-cause .bottom-text .wapper-text .text-concent {
+            width: 1000px;
+            height: 563px;
+            margin: 0 auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transition: top 1s ease-in-out 0s; }
+            .main .accompany-section .container-cause .bottom-text .wapper-text .text-concent div {
+              margin-bottom: 30px; }
+              .main .accompany-section .container-cause .bottom-text .wapper-text .text-concent div .text-title {
+                font-size: 20px;
+                color: #222; }
+              .main .accompany-section .container-cause .bottom-text .wapper-text .text-concent div .text-con {
+                font-size: 16px;
+                margin-top: 12px;
+                width: 250px;
+                color: #444;
+                line-height: 24px; }
+        .main .accompany-section .container-cause .bottom-text .background {
+          position: absolute;
+          width: 100%;
+          background-color: #FFF3EA;
+          z-index: 10;
+          right: 660px;
+          height: 100%;
+          transition: right 1s ease-in-out 0s; }
+      .main .accompany-section .container-cause .img-card {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 9; }
+        .main .accompany-section .container-cause .img-card .js-img-card .hover-top {
+          top: -40px; }
+        .main .accompany-section .container-cause .img-card .js-img-card li {
+          position: relative;
+          cursor: pointer;
+          float: right;
+          margin-left: 10px;
+          width: 210px;
+          height: 420px;
+          transition: top .5s ease-in-out 0.2s;
+          top: 0; }
+          .main .accompany-section .container-cause .img-card .js-img-card li img {
+            width: 100%;
+            height: 100%; }
+  .main .activity-section {
+    width: 100%;
+    margin-top: 72px;
+    padding: 60px 0 55px 0; }
+    .main .activity-section .activity-container .activity-title {
+      text-align: center; }
+      .main .activity-section .activity-container .activity-title .baskerville {
+        color: #222;
+        border-top: 1px solid #999;
+        font-size: 36px;
+        font-weight: 100;
+        line-height: 56px;
+        display: inline-block; }
+      .main .activity-section .activity-container .activity-title .sub-title {
+        color: #222;
+        font-size: 24px; }
+      .main .activity-section .activity-container .activity-title .sub-girl {
+        margin-top: 10px;
+        color: #222;
+        font-size: 16px;
+        line-height: 24px; }
+    .main .activity-section .activity-container .activity-images {
+      margin-top: 40px;
+      overflow: hidden; }
+      .main .activity-section .activity-container .activity-images .images-container {
+        float: left;
+        width: 320px;
+        text-align: center; }
+        .main .activity-section .activity-container .activity-images .images-container a {
+          display: block; }
+          .main .activity-section .activity-container .activity-images .images-container a img {
+            width: 100%; }
+        .main .activity-section .activity-container .activity-images .images-container .images-title {
+          font-size: 20px;
+          color: #222;
+          margin-top: 28px; }
+        .main .activity-section .activity-container .activity-images .images-container .description {
+          font-size: 16px;
+          line-height: 20px;
+          margin-top: 12px; }
+      .main .activity-section .activity-container .activity-images .mLeft {
+        margin-left: 20px; }
+
+.fixed-all .main-pagination {
+  position: fixed;
+  padding: 8px 0;
+  z-index: 99999;
+  background-color: #FCD2C0;
+  top: 50%;
+  left: 0;
+  margin-top: -73px; }
+  .fixed-all .main-pagination .fixed-list {
+    width: 37px; }
+    .fixed-all .main-pagination .fixed-list li {
+      padding-right: 14px;
+      padding-left: 14px;
+      height: 44px;
+      line-height: 44px;
+      font-size: 12px;
+      columns: #fff;
+      cursor: pointer; }
+      .fixed-all .main-pagination .fixed-list li i {
+        background-image: url(../img/icon.png);
+        background-position: -215px -122px;
+        width: 6px;
+        height: 6px;
+        display: inline-block; }
+    .fixed-all .main-pagination .fixed-list .hover-v i {
+      background-image: url(../img/icon.png);
+      background-position: -215px -76px;
+      width: 12px;
+      height: 12px;
+      position: relative;
+      left: -3px; }
+
+.fixed-all .js-main-pagination {
+  position: fixed;
+  background-color: #FCD2C0;
+  z-index: 99998;
+  padding: 8px 0;
+  top: 50%;
+  left: 37px;
+  margin-top: -73px;
+  transition: all 0.4s linear 0s; }
+  .fixed-all .js-main-pagination .js-fixed-list li {
+    padding-right: 24px;
+    line-height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer; }
+    .fixed-all .js-main-pagination .js-fixed-list li span {
+      position: relative;
+      margin-left: 6px; }
+
+.absolute {
+  position: absolute;
+  z-index: 9; }
+
+.relative {
+  top: 140px; }
+
+.main-relative {
+  position: relative;
+  top: 140px; }

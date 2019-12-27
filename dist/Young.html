@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><meta http-equiv=X-UA-Compatible content="ie=edge"><title>关于怡日健 - 怡日健-DailyBenefits</title><link rel=stylesheet href=./css/cssreset.css><link rel=stylesheet href=./css/young.css><link rel=icon href=https://www.marykay.com.cn/favicon.ico type=image/x-icon></head><body><div class=header></div><div class=young-content><div class=banner-container><img class=percentage src=./img/banner1_new8.jpg></div><div class=benefit-section><div class=po_re><img class=percentage src=./img/factory_new.jpg> <a href=javascript:void(0); class=watch-vedio onclick=disableMute()>点此查看视频 <i class=icon><img class=mb4_f src=./img/bf-grap.png></i></a></div></div><div class=series-melacep><div class=melacep-content><div class=banner-1><div class=content><img class=percentage src=./img/rjpic13.png><div class=benefit><ul class=lb-ul2><li class=lb-ul2-li1><p class=lb-ul2-li1-p1>怡日健首创“三养概念”</p><p>健康绽放年轻美</p></li><li class=lb-ul2-li2><a><img src=./img/yingyang.jpg><div class=li-f-div><p class=li-f-p1>营养</p><p class="li-f-p2 p2">膳食平衡</p></div></a></li><li class=lb-ul2-li2><a><img src=./img/baoyang.jpg><div class=li-f-div><p class=li-f-p1>保养</p><p class="li-f-p2 p2">健身美体</p></div></a></li><li class=lb-ul2-li2><a><img src=./img/xiuyang.jpg><div class=li-f-div><p class=li-f-p1>休养</p><p class="li-f-p2 p2">身心和谐</p></div></a></li></ul></div></div></div></div></div><div class=banner-list><div class=recommend-pic-text><div class=recommend-pic-con><ul class=recommend-list></ul></div></div></div></div><div class=video-section><div class=shadow></div><i class="js-video-close delete-video" onclick=enableMute()></i><div class=video-area><video controls width=800 height=450 id=video><source src=https://mkiimg.marykay.com.cn/corpsite/WebContent/Video/Dailybenefits/Factory.mp4 type=video/mp4 codecs=avc1.42e01e,mp4a.40.2></video></div></div><div class=footer></div><script src=./js/jquery-1.8.3.js></script><script src=./js/young.js></script><script src=./js/detail.js></script><script>
+//引入页面头尾部模块
+    var myVid = document.getElementById("video");
+    function enableMute() {
+        myVid.muted = true;
+    }
+    function disableMute() {
+        myVid.muted = false;
+    }
+    function checkMute() {
+        alert(myVid.muted);
+    } 
+$(function () {
+    $('.header').load('./header.html');//引入公用头部页面
+    $('.footer').load('./footer.html');//
+
+});
+</script></body></html>

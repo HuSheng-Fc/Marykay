@@ -1,0 +1,1 @@
+"use strict";$(document).scroll(function(){var o=$(document).scrollTop(),t=parseInt($(".top-nav").height());console.log(t),40<o?$(".top-bar").css({position:"absolute",top:"-40px"}):$(".top-bar").css({position:"relative",top:"0px"})});

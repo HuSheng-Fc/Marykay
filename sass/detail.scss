@@ -1,0 +1,208 @@
+.w{
+    width: 1000px;
+    margin: 0 auto;
+}
+.main-detail{
+    width: 100%;
+    padding-top: 110px;
+    overflow: hidden;
+    .page-wapper{
+        padding: 80px 0 10px 0;
+        min-width: 450px;
+        position: relative;
+        overflow: hidden;
+        .container{
+            overflow: hidden;
+            .swiper-container{
+                width: 400px;
+                height: 450px;
+                float: left;
+                padding-bottom: 50px;
+                .swiper-pagination-bullet{
+                    width: 13px;
+                    height: 13px;
+                    background-image: url("../img/icon.png");
+                    background-position: -210px -132px;
+                }
+                .swiper-pagination-bullet-active{
+                    background-image: url("../img/icon.png");
+                    background-position: -215px -55px;
+                }
+            }
+            .detail-info{
+                width: 480px;
+                margin-left: 120px;
+                float: left;
+                .title{
+                    font-size: 32px;
+                    line-height: 45px;
+                    color: #222;
+                    margin-top: 10px;
+                }
+                .sub-title{
+                    font-size: 16px;
+                    color: #444;
+                    margin-top: 8px;
+                }
+                .detail-a{
+                    margin-top: 14px;
+                    li{
+                        color: #444;
+                        font-size: 16px;
+                        line-height:24px;
+                        padding-left: 10px;
+                        position: relative;
+                        img{
+                            width: 50px;
+                            height: 50px;
+                            margin-top: 10px;
+                            border: 1px solid grey;
+                        }
+                    }
+                }
+                .prize-tag {
+                    margin-top: 80px;
+                    position: relative;
+                    overflow: hidden;
+                    .divprizemarge{
+                        margin-top: 20px;
+                        float: left;
+                        span{
+                            color: #222;
+                            font-size: 40px;
+                            em{
+                                font-style: normal;
+                            }
+                        }
+                        .tag{
+                            float: none;
+                            margin-top: 30px;
+                            li{
+                                font-size: 16px;
+                                color: #666;
+                                float: left;
+                                margin-left: 20px;
+                                span{
+                                    display: inline-block;
+                                    border: 1px solid #888;
+                                    line-height:28px;
+                                    height: 28px;
+                                    padding: 0 3px;
+                                    font-size: 16px;
+                                    color: #888;
+                                }
+                            }
+                        }
+                    }
+                    .detail-ewm{
+                        float: right;
+                        text-align: center;
+                        img{
+                            width: 150px;
+                            height: 150px;
+                        }
+                        p{
+                            font-size: 12px;
+                            color: #888;
+                        }
+                    }
+                }
+                .btn-area{
+                    margin-top: 18px;
+                    padding: 0 12px;
+                    padding-top: 24px;
+                    border-top: 1px solid #eee;
+                }
+            }
+        }
+    } 
+    .widescreen_area {
+        img{
+            max-width: 100%;
+            margin: 0 auto;
+            height: auto;
+            display: block;
+        }
+    }
+    .recommend-section{
+        border-top: 1px solid #eee;
+        padding: 30px;
+        padding-bottom: 80px;
+        position: relative;
+        // overflow: hidden;
+        height: 510px;
+        .re-header{
+            .header-title{
+                text-align: center;
+                font-size: 32px;
+                color: #222;
+                line-height: 45px;
+            }
+            .header-sub-title{
+                font-size: 16px;
+                color: #444;
+                margin-top: 10px;
+                text-align: center;
+            }
+        }
+        .re-pic-text{
+            margin-top: 30px;
+            .width-100{
+                width: 100%;
+            }
+            .re-list{
+                width: 1000px;
+                position: absolute;
+                top: 22%;
+                height: 413px;
+                overflow: hidden;
+                z-index: 100;
+                .with-plus,.with-plua{
+                    position: relative;
+                    width: 33%;
+                    float: left;
+                    text-align: center;
+                    .pro-pic{
+                        position: relative;
+                        height: 300px;
+                        margin-top: 30px;
+                        a{
+                        display: block;
+                        position: absolute;
+                        bottom:0;
+                        left: 15px;
+                        }
+                    }
+                    .pro-name{
+                        margin-top: 10px;
+                        a{
+                            font-size: 20px;
+                            color: #222;
+                        }
+                    }
+                    .pro-desc{
+                        font-size: 12px;
+                        color: #444;
+                        margin-top: 3px;
+                    }
+                    .price{
+                        color: #444;
+                        font-size: 12px;
+                        margin-top: 8px;
+                    }
+                }
+                .with-plus:after{
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    right: -9px;
+                    margin-top: -15px;
+                    background-image: url(../img/icon.png);
+                    background-position: -71px -92px;
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}

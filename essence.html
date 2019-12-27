@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>幻时佳高阶维C精华露</title>
+<link rel="stylesheet" href="./css/essence.css">
+<link rel="stylesheet" href="./css/cssreset.css">
+<link rel="icon" href="https://www.marykay.com.cn/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="header"></div>
+<div class="detail-con">
+    <div class="pro-detail-section">
+        <div class="container">
+            <div class="container-img">
+                <img src="./img/10109955.jpg" alt="">
+            </div>
+            <div class="detail-info">
+                <p class="title">
+                    幻时佳<sub>®</sub>高阶维C精华露
+                </p>
+                <p class="sub-title">TimeWise Plus+® Advanced Replenishing Serum+C</p>
+                <ul class="description">
+                    <li>三重高阶维C群，抗氧加乘，帮助促进胶原蛋白生成；革新微囊技术，层层缓释，保鲜直通肌底；透明刻度窗，精准用量，一天“弹”一度。</li>
+                </ul>
+                <div class="prize-tag">
+                    <div class="divprizemarge">
+                        <span class="prize">
+                            <em>建议零售价</em>￥958
+                        </span>
+                        <ul class="tag">
+                            <li><span>7.5ml X 4</span></li>
+                            <li><span>＃10109955</span></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <img src="./img/10109955qwe.jpg" alt="">
+                        <p>扫描二维码购买产品</p>
+                    </div>
+                </div>
+                <div class="btn-area"></div>
+            </div>
+        </div>
+    </div>
+    <div class="widescreen_area">
+        <img src="./img/1_new.jpg" alt="">
+        <a href="javascript:void(0)" class="watch-vedio" onclick="disableMute()">
+            <img class="mp4-f" src="./img/2-2.jpg" alt="">
+        </a>
+        <img src="./img/32.jpg" alt="">
+        <a href="javascript:void(0)" class="watch-vedio2" id="v2">
+            <img class="mp4-f" src="./img/4.jpg" alt="">
+        </a>
+        <img src="./img/5.jpg" alt="">
+    </div>
+    <dib class="resection"></dib>
+</div>
+<div class="video-section">
+    <div class="shadow">
+        <i class="js-video-close" onclick="enableMute()"></i>
+    </div>
+    <div class="video-area">
+        <video controls="controls" width="800" id="video">
+            <source id="src" src="https://video.marykay.com.cn/corpsite/products/timewiseplus/vc3d.mp4" type="video/mp4; codecs=""> 
+        </video>
+    </div>
+</div>
+<div class="footer"></div>
+
+<script src="./js/jquery-1.8.3.js"></script>
+<!-- <script src="./js/detail.js"></script> -->
+
+<script>
+    $(function () {
+        $('.header').load('./header.html');//引入公用头部页面
+        $('.footer').load('./footer.html');//
+    });
+    $(document).scroll(function () {
+        var scrolT = $(document).scrollTop();//滚动高度
+        var top = parseInt($('.top-nav').height());//获取warp的高度
+        // console.log(top);
+        //判断滚动长度
+        if (scrolT > 40) {
+            // $('.top-bar').addClass('absolute');
+            $('.top-bar').css({
+                position: 'absolute',
+                'top': -40 + 'px',
+            })
+            // $('.main').css({
+            //     marginTop: 210 + 'px',
+            // });
+        } else {
+            $('.top-bar').css({
+                position: 'relative',
+                'top': 0 + 'px',
+            })
+        }
+    })
+
+    $('.watch-vedio').click(function(){
+        $('.video-section').css('display', 'block');
+    })
+    $('.js-video-close').click(function(){
+        $('.video-section').css('display', 'none');
+    })
+    var myVid = document.getElementById("video");
+        function enableMute() {
+            myVid.muted = true;
+        }
+        function disableMute() {
+            myVid.muted = false;
+        }
+        function checkMute() {
+            alert(myVid.muted);
+        } 
+    $('#v2').click(function(){
+        // var abc = $('#src').attr('src');
+        
+        
+        $('source').attr('src','https://video.marykay.com.cn/corpsite/products/timewiseplus/elasticcollagen.mp4')
+        // console.log(abc);
+    })
+</script>
+</body>
+</html>

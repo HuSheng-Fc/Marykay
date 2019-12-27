@@ -1,0 +1,84 @@
+{
+    "freebie":[
+        {"images1":"./img/promotion201912nav1.jpg","title1":"实力红礼盒"},
+        {"images1":"./img/promotion201912nav2.jpg","title1":"水润亮采"},
+        {"images1":"./img/promotion201912nav3.jpg","title1":"水润时光"},
+        {"images1":"./img/promotion201912nav4.jpg","title1":"海淘特惠"},
+        {"images1":"./img/promotion201912nav5.jpg","title1":"无瑕奶油妆"},
+        {"images1":"./img/promotion201912nav6.jpg","title1":"复古粉妆"},
+        {"images1":"./img/promotion201912nav7.jpg","title1":"缤纷促销"},
+        {"images1":"./img/promotion201912nav8.jpg","title1":"1980元促销"},
+        {"images1":"./img/promotion201912nav9.jpg","title1":"粉妍片3盒组"},
+        {"images1":"./img/promotion201912nav10.jpg","title1":"小畅3盒组"}
+    ],
+    "MediaAward":[
+        {"images2":"./img/huojiang08.jpg","title2":"幻时5X™晚霜"},
+        {"images2":"./img/huojiang01_new.jpg","title2":"海洋精粹润肤霜（均衡型）"},
+        {"images2":"./img/huojiang02_new.jpg","title2":"臻时粹颜精华乳"},
+        {"images2":"./img/huojiang02_new.jpg","title2":"幻时®维C精华露"},
+        {"images2":"./img/huojiang04_new.jpg","title2":"幻时佳®紧颜精华露"},
+        {"images2":"./img/huojiang05_new.jpg","title2":"粉妍片"}
+    ],
+    "productLine":[
+        {"images3": "./img/img-nav-2-12@2x_new.jpg","title3": "幻时5X系列"},
+        {"images3": "./img/img-nav-2-5@2x.jpg","title3": "幻时护肤系列"},
+        {"images3": "./img/img-nav-2-6@2x.jpg","title3": "幻时佳系列"},
+        {"images3": "./img/img-nav-2-11@2x.jpg","title3": "海洋精粹保湿系列"},
+        {"images3": "./img/img-nav-2-1@2x_new2.jpg","title3": "臻时粹颜系列"},
+        {"images3": "./img/img-nav-2-2@2x_new.jpg","title3": "亮采系列"},
+        {"images3": "./img/img-nav-2-3@2x.jpg","title3": "经典护肤系列"},
+        {"images3": "./img/img-nav-2-4@2x.jpg","title3": "补充性保养系列"},
+        {"images3": "./img/img-nav-2-7@2x.jpg","title3": "防晒系列"},
+        {"images3": "./img/img-nav-2-8@2x.jpg","title3": "舒颜系列"},
+        {"images3": "./img/img-nav-2-9-hover@2x.jpg","title3": "抗痘系列"},
+        {"images3": "./img/img-nav-2-10@2x.jpg","title3": "男士系列"},
+        {"images3": "./img/img-nav-2-13@2x.jpg","title3": "海淘系列"}
+    ],
+    "products":[
+        {"images4":"./img/img-nav-2-2-1@2x.jpg","title4":"清洁/卸妆"},
+        {"images4":"./img/img-nav-2-2-2@2x.jpg","title4":"面膜"},
+        {"images4":"./img/img-nav-2-2-3@2x.jpg","title4":"爽肤水"},
+        {"images4":"./img/img-nav-2-2-5@2x.jpg","title4":"精华/密集修护"},
+        {"images4":"./img/img-nav-2-2-4@2x.jpg","title4":"眼部护理"},
+        {"images4":"./img/img-nav-2-2-6@2x.jpg","title4":"乳液/乳霜"},
+        {"images4":"./img/img-nav-2-2-7@2x.jpg","title4":"保护/防护"}
+    ],
+    "Makeup":[
+        {"images5": "./img/nav-pinkyoung.jpg","title5": "PinkYoung系列"},
+        {"images5": "./img/nav-makemarykay.jpg","title5": "MaryKay系列"}
+    ],
+    "ification":[
+        {"images6": "./img/img-nav-3-1-1@2x_new2.jpg","title6": "唇部系列"},
+        {"images6": "./img/img-nav-3-1-2@2x_new2.jpg","title6": "脸部系列"},
+        {"images6": "./img/img-nav-3-1-3@2x_new.jpg","title6": "脸部系列"},
+        {"images6": "./img/img-nav-3-1-4@2x_new.jpg","title6": "彩妆工具"}
+    ],
+    "Bodycare":[
+        {"images7": "./img/img-nav-4-1-2@2x.jpg","title7": "护体系列"},
+        {"images7": "./img/img-nav-4-1-1@2x.jpg","title7": "香氛系列"}
+    ],
+    "maintenance":[
+        {"images8": "./img/yirijian_nav_new.jpg","title8": "关于怡日健"},
+        {"images8": "./img/jiaoyuandanbai.jpg","title8": "胶原蛋白肽固体饮料"},
+        {"images8": "./img/fanqiehongsu_new.jpg","title8": "番茄红素天然维生素E软胶囊"},
+        {"images8": "./img/xiaochang.jpg","title8": "益生菌固体饮料"},
+        {"images8": "./img/xiaolan_new2.jpg","title8": "固多肽固体饮料"},
+        {"images8": "./img/xiaohuang.jpg","title8": "水溶性膳食纤维固体饮料"},
+        {"images8": "./img/xiaofen.jpg","title8": "酵母β-葡聚糖固体饮料"},
+        {"images8": "./img/xiaozi.jpg","title8": "γ－氨基丁酸固体饮料"},
+        {"images8": "./img/xiaolv.jpg","title8": "白芸豆固体饮料"},
+        {"images8": "./img/fenyanpian_nav_new.jpg","title8": "粉妍片"}
+    ],
+    "mlkCause":[
+        {"images9": "./img/img-nav-6-1-1@2x_new.jpg","title9": "了解玫琳凯事业"},
+        {"images9": "./img/img-nav-6-1-2@2x_new.jpg","title9": "事业女性成长记"},
+        {"images9": "./img/img-nav-6-1-4@2x_new.jpg","title9": "事业开展与公司支持"},
+        {"images9": "./img/img-nav-6-1-4@2x_new2.jpg","title9": "申请成为事业女性"}
+    ],
+    "withMlk":[
+        {"images10": "./img/MarykayGlobal.jpg","title10": "玫琳凯创始人"},
+        {"images10": "./img/MarykayChina.jpg","title10": "玫琳凯品牌"},
+        {"images10": "./img/development_nav.jpg","title10": "可持续发展战略"},
+        {"images10": "./img/NewsCenter.jpg","title10": "新闻中心"}
+    ]
+}

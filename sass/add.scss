@@ -1,0 +1,130 @@
+.head{
+    width: 100%;
+    .head-top{
+        width: 100%;
+        background-color: #323332;
+        height: 40px;
+        color: #ccc;
+        line-height: 40px;
+        font-size:14px;
+        text-indent: 40px;
+    }
+    .concent{
+        height: 80px;
+        width: 100%;
+        background-color: #000;
+        font-size: 25px;
+        line-height: 80px;
+        text-indent:40px;
+        color: #fff;
+    }
+    .container{
+        width: 1000px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        height: 1459px;
+        background: url(../img/pcbg.jpg) no-repeat 0px 0px;
+        .p1{
+            margin-left: 56px;
+            margin-top: 30px;
+        }
+        .title{
+            font-size: 25px;
+            font-weight: 700;
+            // margin-top: 15px;
+        }
+        .textcontent{
+            width: 370px;
+            line-height: 35px;
+            font-weight: 600;
+            margin-left: 56px;
+            font-size: 16px;
+        }
+        .bigtitle{
+            text-align: center;
+            margin-top: 177px;
+            font-size: 36px;
+            color: #fff;
+        }
+        .step1{
+            height: 275px;
+            background-color: #f5d368;
+            width: 818px;
+            margin: 0 auto;
+            margin-top: 50px;
+            display:flex;
+            .l{
+                flex: 2;
+                font-weight: 700;
+                text-align: center;
+                img{
+                    margin-top: 75px;
+                }
+                p{
+                    margin-top: 20px;
+                }
+            }
+            .r{
+                flex:8;
+                padding-top: 8px;
+                .fs25{
+                    font-size: 25px;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                .fs20{
+                    font-size: 20px;
+                }
+                .position{
+                    position: relative;
+                }
+            }
+        }
+        .step2{
+            height:275px;
+            background-color: #f5d368;
+            width: 818px;
+            margin: 0 auto;
+            margin-top: 50px;
+            display:flex;
+            .l{
+                flex: 2;
+                font-weight: 700;
+                text-align: center;
+                img{
+                    margin-top: 75px;
+                }
+                p{
+                    margin-top: 20px;
+                }
+            }
+            .r{
+                margin-top: 30px;
+                flex:8;
+                padding-top: 8px;
+                .fs25{
+                    font-size: 25px;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                .fs20{
+                    font-size: 20px;
+                }
+                .mk{
+                    display: inline-block;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    padding: 2px 15px 4px 15px;
+
+                }
+            }
+        }
+        .foot{
+            color: #fff;
+            font-size: 13px;
+            text-align: center;
+            line-height: 100px;
+            
+        }
+    }
+}

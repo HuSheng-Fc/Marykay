@@ -1,0 +1,221 @@
+.young-content{
+    width: 100%;
+    padding-top: 110px;
+    overflow: hidden;
+    .banner-container{
+        width: 1280px;
+        margin: 0 auto;
+        height: 610px;
+        position: relative;
+        .percentage{
+            width: 100%;
+        }
+    }
+    .benefit-section{
+        width: 100%;
+        .po_re{
+            width: 1280px;
+            height: 610px;
+            margin: 0 auto;
+            position: relative;
+            .percentage{
+                width: 100%;
+            }
+            .watch-vedio{
+                position: absolute;
+                left: 183px;
+                top: 160px;
+                color: #666;
+                font-size: 12px;
+                .icon{
+                    position: relative;
+                    top: 0px;
+                    margin-left: 6px;
+                    font-style: normal;
+                    .mb4_f{
+                        margin-bottom: 4px;
+                    }
+                }
+            }
+        }
+    }
+    .series-melacep{
+        width: 100%;
+        .melacep-content{
+            width: 1280px;
+            height: 610px;
+            margin: 0 auto;
+            position: relative;
+            .banner-1{
+                height: 100%;
+                position: relative;
+                float: left;
+                .content{
+                    width: 100%;
+                    margin: 0 auto;
+                    .percentage{
+                        width: 100%;
+                    }
+                    .benefit{
+                        left: 130px;
+                        position: absolute;
+                        top: 80px;
+                        text-align: center;
+                        z-index: 10;
+                        .lb-ul2{
+                            width: 100%;
+                            height: 510px;
+                            li{
+                                width: 485px;
+                                height: 200px;
+                                float: left;
+                                position: relative;
+                                margin-bottom: 10px;
+                                margin-right: 10px;
+                            }
+                            .lb-ul2-li1{
+                                .lb-ul2-li1-p1{
+                                    padding-top: 50px;
+                                }
+                                p{
+                                    padding-left: 30px;
+                                    line-height: 50px;
+                                    font-size: 30px;
+                                    color: #222;
+                                    text-align: left;
+                                }
+                            }
+                            .lb-ul2-li2{
+                                a{
+                                    display: block;
+                                    img{
+                                        width: 495px;
+                                        height: 200px;
+                                    }
+                                    .li-f-div{
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        .li-f-p1{
+                                            padding-top: 50px;
+                                            padding-left: 30px;
+                                            font-size: 30px;
+                                            color: #222;
+                                            text-align: left;
+                                        }
+                                        .li-f-p2{
+                                            padding-left: 30px;
+                                            color: #222;
+                                            text-align:left;
+                                            line-height: 50px;
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .banner-list{
+        padding-top: 30px;
+        padding-bottom: 80px;
+        .recommend-pic-text{
+            width: 1280px;
+            margin: 0 auto;
+            overflow: hidden;
+            .recommend-pic-con{
+                .recommend-list{
+                // margin: 0 -30px;
+                li{
+                    position: relative;
+                    width: 33%;
+                    text-align: center;
+                    float: left;
+                    // padding: 0 30px;
+                    padding-top: 40px;
+                    height: 520px;
+                    .pro-oic{
+                        position: relative;
+                        height: 360px;
+                        width: 280px;
+                        margin: 0 auto;
+                        vertical-align: bottom;
+                        a{
+                        display: block;
+                        img{
+                            width: 100%;
+                            }
+                        }
+                    }
+                    .pro-name{
+                        width: 100%;
+                        margin-top: 10px;
+                        a{
+                            font-size: 20px;
+                            color: #222;
+                        }
+                    }
+                    .pro-desc{
+                        font-size: 12px;
+                        color: #444;
+                        margin-top: 9px;
+                        width: 100%;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                    .price{
+                        font-size: 12px;
+                        color: #444;
+                        margin-top: 8px;
+                        width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 视频
+.video-section{
+    position: fixed;
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000002;
+    display: none;
+    .shadow{
+        background-color: #222;
+        opacity: .75;
+        width: 100%;
+        height: 100%;
+        position:fixed;
+    }
+    .js-video-close{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -225px;
+        margin-left: 428px;
+        display: inline-block;
+        background-image: url(../img/icon.png);
+        background-position: -184px -60px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .video-area{
+        position: absolute;
+        width: 800px;
+        height: 450px;
+        top: 50%;
+        left: 50%;
+        margin-top: -225px;
+        margin-left: -400px;
+        background-color: #fff;
+    }
+}

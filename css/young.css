@@ -1,0 +1,173 @@
+.young-content {
+  width: 100%;
+  padding-top: 110px;
+  overflow: hidden; }
+  .young-content .banner-container {
+    width: 1280px;
+    margin: 0 auto;
+    height: 610px;
+    position: relative; }
+    .young-content .banner-container .percentage {
+      width: 100%; }
+  .young-content .benefit-section {
+    width: 100%; }
+    .young-content .benefit-section .po_re {
+      width: 1280px;
+      height: 610px;
+      margin: 0 auto;
+      position: relative; }
+      .young-content .benefit-section .po_re .percentage {
+        width: 100%; }
+      .young-content .benefit-section .po_re .watch-vedio {
+        position: absolute;
+        left: 183px;
+        top: 160px;
+        color: #666;
+        font-size: 12px; }
+        .young-content .benefit-section .po_re .watch-vedio .icon {
+          position: relative;
+          top: 0px;
+          margin-left: 6px;
+          font-style: normal; }
+          .young-content .benefit-section .po_re .watch-vedio .icon .mb4_f {
+            margin-bottom: 4px; }
+  .young-content .series-melacep {
+    width: 100%; }
+    .young-content .series-melacep .melacep-content {
+      width: 1280px;
+      height: 610px;
+      margin: 0 auto;
+      position: relative; }
+      .young-content .series-melacep .melacep-content .banner-1 {
+        height: 100%;
+        position: relative;
+        float: left; }
+        .young-content .series-melacep .melacep-content .banner-1 .content {
+          width: 100%;
+          margin: 0 auto; }
+          .young-content .series-melacep .melacep-content .banner-1 .content .percentage {
+            width: 100%; }
+          .young-content .series-melacep .melacep-content .banner-1 .content .benefit {
+            left: 130px;
+            position: absolute;
+            top: 80px;
+            text-align: center;
+            z-index: 10; }
+            .young-content .series-melacep .melacep-content .banner-1 .content .benefit .lb-ul2 {
+              width: 100%;
+              height: 510px; }
+              .young-content .series-melacep .melacep-content .banner-1 .content .benefit .lb-ul2 li {
+                width: 485px;
+                height: 200px;
+                float: left;
+                position: relative;
+                margin-bottom: 10px;
+                margin-right: 10px; }
+              .young-content .series-melacep .melacep-content .banner-1 .content .benefit .lb-ul2 .lb-ul2-li1 .lb-ul2-li1-p1 {
+                padding-top: 50px; }
+              .young-content .series-melacep .melacep-content .banner-1 .content .benefit .lb-ul2 .lb-ul2-li1 p {
+                padding-left: 30px;
+                line-height: 50px;
+                font-size: 30px;
+                color: #222;
+                text-align: left; }
+              .young-content .series-melacep .melacep-content .banner-1 .content .benefit .lb-ul2 .lb-ul2-li2 a {
+                display: block; }
+                .young-content .series-melacep .melacep-content .banner-1 .content .benefit .lb-ul2 .lb-ul2-li2 a img {
+                  width: 495px;
+                  height: 200px; }
+                .young-content .series-melacep .melacep-content .banner-1 .content .benefit .lb-ul2 .lb-ul2-li2 a .li-f-div {
+                  position: absolute;
+                  top: 0;
+                  left: 0; }
+                  .young-content .series-melacep .melacep-content .banner-1 .content .benefit .lb-ul2 .lb-ul2-li2 a .li-f-div .li-f-p1 {
+                    padding-top: 50px;
+                    padding-left: 30px;
+                    font-size: 30px;
+                    color: #222;
+                    text-align: left; }
+                  .young-content .series-melacep .melacep-content .banner-1 .content .benefit .lb-ul2 .lb-ul2-li2 a .li-f-div .li-f-p2 {
+                    padding-left: 30px;
+                    color: #222;
+                    text-align: left;
+                    line-height: 50px;
+                    font-size: 16px; }
+  .young-content .banner-list {
+    padding-top: 30px;
+    padding-bottom: 80px; }
+    .young-content .banner-list .recommend-pic-text {
+      width: 1280px;
+      margin: 0 auto;
+      overflow: hidden; }
+      .young-content .banner-list .recommend-pic-text .recommend-pic-con .recommend-list li {
+        position: relative;
+        width: 33%;
+        text-align: center;
+        float: left;
+        padding-top: 40px;
+        height: 520px; }
+        .young-content .banner-list .recommend-pic-text .recommend-pic-con .recommend-list li .pro-oic {
+          position: relative;
+          height: 360px;
+          width: 280px;
+          margin: 0 auto;
+          vertical-align: bottom; }
+          .young-content .banner-list .recommend-pic-text .recommend-pic-con .recommend-list li .pro-oic a {
+            display: block; }
+            .young-content .banner-list .recommend-pic-text .recommend-pic-con .recommend-list li .pro-oic a img {
+              width: 100%; }
+        .young-content .banner-list .recommend-pic-text .recommend-pic-con .recommend-list li .pro-name {
+          width: 100%;
+          margin-top: 10px; }
+          .young-content .banner-list .recommend-pic-text .recommend-pic-con .recommend-list li .pro-name a {
+            font-size: 20px;
+            color: #222; }
+        .young-content .banner-list .recommend-pic-text .recommend-pic-con .recommend-list li .pro-desc {
+          font-size: 12px;
+          color: #444;
+          margin-top: 9px;
+          width: 100%;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap; }
+        .young-content .banner-list .recommend-pic-text .recommend-pic-con .recommend-list li .price {
+          font-size: 12px;
+          color: #444;
+          margin-top: 8px;
+          width: 100%; }
+
+.video-section {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000002;
+  display: none; }
+  .video-section .shadow {
+    background-color: #222;
+    opacity: .75;
+    width: 100%;
+    height: 100%;
+    position: fixed; }
+  .video-section .js-video-close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: 428px;
+    display: inline-block;
+    background-image: url(../img/icon.png);
+    background-position: -184px -60px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer; }
+  .video-section .video-area {
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -400px;
+    background-color: #fff; }
